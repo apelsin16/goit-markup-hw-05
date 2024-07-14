@@ -678,12 +678,12 @@ a {
 /* Check */
 
 .check {
+    --color-text: #8E8F99;
+    color: var(--color-text);
     padding-left: 24px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    --color-text: #8E8F99;
-    color: var(--text-color);
     display: block;
 }
 
@@ -709,10 +709,12 @@ a {
 
 /* Checked */
 
-.check__input:checked + .check > .check__box {
-    --bg-color: #404BBF;
+.check__input:checked + .check .check__box {
+    --bg-color:  #404bbf;
     background-color: var(--bg-color);
     border: none;
+    --icon-fill: #F4F4FD;
+    fill: var(--icon-fill);
 }
 
 .check-icon {
