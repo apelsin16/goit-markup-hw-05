@@ -675,14 +675,6 @@ a {
     border-color: #4D5AE5;
 }
 
-/* Option */
-
-.check-label {
-    display: block;
-    --label-color: #8e8F99;
-    color: var(--label-color);
-}
-
 /* Check */
 
 .check {
@@ -692,6 +684,7 @@ a {
     letter-spacing: 0.04em;
     --color-text: #8E8F99;
     color: var(--text-color);
+    display: block;
 }
 
 .check__box {
@@ -719,6 +712,7 @@ a {
 .check__input:checked + .check > .check__box {
     --bg-color: #404BBF;
     background-color: var(--bg-color);
+    border: none;
 }
 
 .check-icon {
