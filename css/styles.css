@@ -684,7 +684,8 @@ a {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: block;
+    display: inline-flex;
+    align-items: center;
 }
 
 .check__box {
@@ -695,7 +696,7 @@ a {
     height: 16px;
     overflow: hidden;
     border-radius: 2px;
-    background-color: white;
+    background-color: transparent;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -726,7 +727,7 @@ a {
     fill: var(--icon-fill);
 }
 
-.policy-icon {
+.policy-link {
     --link-text-color: #4d5ae5;
     color: var(--link-text-color);
     text-decoration: underline;
