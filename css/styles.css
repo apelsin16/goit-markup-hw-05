@@ -692,8 +692,6 @@ a {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: inline-flex;
-    align-items: center;
 }
 
 .check__box {
@@ -713,6 +711,7 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    fill: transparent;
 }
 
 /* Checked */
